@@ -32,5 +32,7 @@ pip install torch=
 ## SAM2
 
 ```
-
+conda create -n gpu_benchmark python=3.10 -y
+conda activate gpu_benchmark
+pip install -e ".[notebooks]"
 ```
